@@ -1,13 +1,105 @@
+/* Bootstrap link */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Google icons link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+/* styling of the body */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* styling of the container */
+.cv-container{
+  max-width: 800px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 36px #0000007a
+}
+
+/* styling of the image */
+.pic{
+  width: 200px;
+  height: 200px;
+}
+
+/* styling of contact information*/
+.contact-info,.email-info,
+.website-info,.address-info{
+  display: flex;
+  column-gap: 10px;
+}
+
+/* styling of the list*/
+.items{
+  padding-left:30px;
+}
+
+/* styling of skill list*/
+.items li{
+  display: list-item;
+  list-style: circle;
+}
+ 
+/* styling of left column*/
+.left{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* styling of the left column container*/
+.left-container{
+  background: #e3d5e3;
+}
+
+/* styling of the header tag in the left column container*/
+.left-container h5{
+  background: #8d468a;
+  color: #fff;
+  width: 120px;
+}
+
+/* styling of right column*/
+.right{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* styling of the name-role class*/
+.name-role{
+  padding-left: 60px;
+}
+
+/* styling of h2 tag in name-role class*/
+.name-role h2{
+  font-size: 35px;
+
+}
+
+/* styling of p tag in name-role class*/
+.name-role p{
+  font-size: 20px;
+}
+
+/* Styling of the education and experience section */
+.edu-exper{
+  background: #f2e1ff;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+/* Styling h5 tag in the right container */
+.right-container h5{
+    background: #8d468a;
+    color: #fff;
+}
+
+/* styling h5 tag in the education section */
+.education h5{
+  width: 120px;
+}
+
+/* styling h5 tag in the experience section */
+.experience h5{
+  width: 158px;
 }
